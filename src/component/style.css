@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Inter' sans-serif;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(236, 72, 72);
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-logo {
+    margin-right: 10px;
+}
+
+.nav-title {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+session {
+    padding: 20px;
+}
+.line {
+    margin: 0 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.card {
+    display: flex;
+}
+
+.card-item {
+    padding: 20px;
+}
+
+.card-location {
+    margin-right: 5px;
+}
+
+.country {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-right:  10px;
+    color: #2B283A;
+}
+
+.map {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: #918E9B;
+
+}
+
+.card-title {
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #2B283A;
+}
+
+.date {
+    margin: 20px 0 10px 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #2B283A;
+}
+
+.card-description {
+    font-size: 15px;
+    font-weight: 400;
+    text-wrap: balance;
+    text-align: left;  
+    color: #2B283A;  
+}
